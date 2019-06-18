@@ -1,0 +1,75 @@
+Part I
+
+1. 	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mkdir death_star
+	Dongyuans-MacBook-Pro:~ dongyuanli$ cd star_wars/
+	Dongyuans-MacBook-Pro:star_wars dongyuanli$ touch death_star/darth_vader.txt death_star/princess_leia.txt death_star/storm_trooper.txt
+
+2.	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mkdir galaxy_far_far_away
+	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mkdir galaxy_far_far_away/tatooine
+	Dongyuans-MacBook-Pro:star_wars dongyuanli$ cd galaxy_far_far_away/
+	Dongyuans-MacBook-Pro:galaxy_far_far_away dongyuanli$ cd tatooine/
+	Dongyuans-MacBook-Pro:tatooine dongyuanli$ touch luke.txt ben_kenobi.txt
+
+3.	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mkdir galaxy_far_far_away/tatooine/millenium_falcon
+	Dongyuans-MacBook-Pro:star_wars dongyuanli$ touch galaxy_far_far_away/tatooine/millenium_falcon/han_solo.txt galaxy_far_far_away/tatooine/millenium_falcon/chewbaca.txt
+
+Part II
+
+4.	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mv galaxy_far_far_away/tatooine/ben_kenobi.txt galaxy_far_far_away/tatooine/obi_wan.txt
+
+Part III
+
+5.	Dongyuans-MacBook-Pro:star_wars dongyuanli$ cp death_star/storm_trooper.txt galaxy_far_far_away/tatooine/
+
+Part IV
+
+6.	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mv galaxy_far_far_away/tatooine/luke.txt galaxy_far_far_away/tatooine/millenium_falcon/
+	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mv galaxy_far_far_away/tatooine/obi_wan.txt galaxy_far_far_away/tatooine/millenium_falcon/
+
+7.	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mv galaxy_far_far_away/tatooine/millenium_falcon galaxy_far_far_away/
+
+8.	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mv galaxy_far_far_away/millenium_falcon death_star/
+
+9.	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mv death_star/princess_leia.txt death_star/millenium_falcon/
+
+Part V
+
+10.	Dongyuans-MacBook-Pro:star_wars dongyuanli$ rm -r death_star/millenium_falcon/obi_wan.txt
+
+Part VI
+
+11.	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mkdir galaxy_far_far_away/yavin_4
+
+12.	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mv death_star/millenium_falcon galaxy_far_far_away/yavin_4/
+
+13. Dongyuans-MacBook-Pro:star_wars dongyuanli$ mkdir galaxy_far_far_away/yavin_4/x_wing
+
+14.	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mv galaxy_far_far_away/yavin_4/millenium_falcon/princess_leia.txt galaxy_far_far_away/yavin_4/
+	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mv galaxy_far_far_away/yavin_4/millenium_falcon/luke.txt galaxy_far_far_away/yavin_4/x_wing/
+
+15.	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mv galaxy_far_far_away/yavin_4/millenium_falcon galaxy_far_far_away/
+	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mv galaxy_far_far_away/yavin_4/x_wing galaxy_far_far_away/
+
+16.	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mkdir death_star/tie_fighter_1 death_star/tie_fighter_2 death_star/tie_fighter_3
+
+17.	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mv death_star/darth_vader.txt death_star/tie_fighter_1
+
+18.	Dongyuans-MacBook-Pro:star_wars dongyuanli$ cp galaxy_far_far_away/tatooine/storm_trooper.txt death_star/tie_fighter_2
+	Dongyuans-MacBook-Pro:star_wars dongyuanli$ cp galaxy_far_far_away/tatooine/storm_trooper.txt death_star/tie_fighter_3
+
+19.	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mv death_star/tie_fighter_1 galaxy_far_far_away/
+	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mv death_star/tie_fighter_2 galaxy_far_far_away/
+	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mv death_star/tie_fighter_3 galaxy_far_far_away/
+
+Part VII
+
+20. Dongyuans-MacBook-Pro:star_wars dongyuanli$ rm -r galaxy_far_far_away/tie_fighter_2 galaxy_far_far_away/tie_fighter_3
+
+Part VIII
+
+21.	Dongyuans-MacBook-Pro:star_wars dongyuanli$ touch galaxy_far_far_away/x_wing/the_force.txt
+
+22.	Dongyuans-MacBook-Pro:star_wars dongyuanli$ rm -r death_star/
+
+23.	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mv galaxy_far_far_away/x_wing galaxy_far_far_away/yavin_4/
+	Dongyuans-MacBook-Pro:star_wars dongyuanli$ mv galaxy_far_far_away/millenium_falcon galaxy_far_far_away/yavin_4/
